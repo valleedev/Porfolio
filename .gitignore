@@ -1,0 +1,6 @@
+*.db
+*.py[cod]
+.reflex_cache/
+.venv
+.web
+__pycache__/
