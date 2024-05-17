@@ -77,7 +77,6 @@ def header() -> rx.Component:
                                     transition=".3s",  
                                     _hover={ 
                                         "bg":styles.Color.GREY,  
-                                        "transform":"scale(.5)"
                                     }
                                 ),
                                 rx.link(  
