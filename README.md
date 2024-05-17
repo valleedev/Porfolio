@@ -1,4 +1,6 @@
 # Portfolio
+![image](https://github.com/ValleDeve/Porfolio/assets/152177799/fea5e450-3105-436c-9df2-76c1be690ea5)
+
 
 En este portfolio muestro mis habilidades y cuanto un poco sobre mi
 
