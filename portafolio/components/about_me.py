@@ -27,17 +27,18 @@ def about_me() -> rx.Component:
                                             width=styles.Size.BIG  
                                         ),
                                         # Experiencia
-                                        rx.text("Experiencia", color=styles.TextColor.BLUE, font_weight="bold"),  
+                                        rx.text("Experiencia", color=styles.TextColor.LIGHTBLUE, font_weight="bold"),  
                                         rx.text("+3 años", color=styles.TextColor.WHITE), 
                                         rx.text("Desarrollador de software autónomo", color=styles.TextColor.WHITE),  
                                         width=styles.WIDTH_CARD,  
                                     ),
-                                    bg=styles.Color.LIGHTBLUE,  
+                                    bg=styles.Color.GREY,  
                                     box_shadow=styles.Color.BOXSHADOW, 
                                     text_align="start",
                                     transition=".3s",  
                                     padding="1em",
                                     border_radius="1em",
+                                    border="1px solid #fff",
                                     _hover={  
                                         "bg":styles.Color.DARKBLUE,
                                     }
@@ -50,7 +51,7 @@ def about_me() -> rx.Component:
                                         alt="Icono de libro regular",  
                                         width=styles.Size.BIG  
                                     ),
-                                    rx.text("Estudios", color=styles.TextColor.BLUE, font_weight="bold"), 
+                                    rx.text("Estudios", color=styles.TextColor.LIGHTBLUE, font_weight="bold"), 
                                     rx.text("Técnico en programación de software.", font_size=styles.Size.DEFAULT.value, color=styles.TextColor.WHITE), 
                                     rx.text(  
                                         "Tecnólogo en análisis y desarrollo de software(en proceso).",  
@@ -59,11 +60,12 @@ def about_me() -> rx.Component:
                                     ),
                                     width="17em",  
                                     text_align="start",
-                                    bg=styles.Color.LIGHTBLUE,  
+                                    bg=styles.Color.GREY,  
                                     box_shadow=styles.Color.BOXSHADOW,  
                                     transition=".3s",  
                                     padding="1em",
                                     border_radius="1em",
+                                    border="1px solid #fff",
                                     _hover={  
                                         "bg":styles.Color.DARKBLUE,
                                     }
@@ -92,7 +94,8 @@ def about_me() -> rx.Component:
                             width=["18em", "18em", "29em", "29em", "29em"],  
                             color=styles.TextColor.WHITE  
                         ),
-                        padding=styles.Size.DEFAULT.value
+                        padding=styles.Size.DEFAULT.value,
+                        
                     )
                 ),
             ),
@@ -103,7 +106,7 @@ def about_me() -> rx.Component:
                 width=styles.HEIGHT_IMAGE2,  
                 height="auto", 
                 border_radius=styles.BORDER_RADIUS,
-                border="2px solid #606D80",
+                border="2px solid #fff",
                 box_shadow=styles.Color.BOXSHADOW, 
                 margin_left=styles.Size.DEFAULT.value,
                 display=["none", "none", "none","flex", "flex"]

@@ -96,7 +96,9 @@ def skills() -> rx.Component:
                         padding=styles.Size.DEFAULT.value,
                         margin_bottom=styles.Size.BIG.value,
                         color=styles.Color.WHITE,
-                        bg=styles.Color.LIGHTBLUE,
+                        bg=styles.Color.GREY,
+                        border_radius="15px",
+                        border="1px solid #fff",
                         flex_direction=["column", "column", "row", "row", "row"]
                         ),
                         rx.box(
@@ -175,7 +177,9 @@ def skills() -> rx.Component:
                             ),
                         padding=styles.Size.SMALL.value,
                         color=styles.TextColor.WHITE,
-                        bg=styles.Color.LIGHTBLUE,
+                        bg=styles.Color.GREY,
+                        border_radius="15px",
+                        border="1px solid #fff",
                         flex_direction=["column", "column", "row", "row", "row"]
                         ),
                         spacing="4",

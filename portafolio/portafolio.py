@@ -16,11 +16,10 @@ def index() -> rx.Component:
             header(), 
             about_me(), 
             experience(),  
-            skills(),  
             projects(), 
+            skills(),  
             flex_direction="column", 
             style={"overflow": "auto"}, 
-            max_width=styles.MAX_WIDTH,  
             bg=styles.Color.BLUE.value,  
             scroll_behavior="smooth" 
         ),

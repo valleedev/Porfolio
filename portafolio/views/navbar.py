@@ -11,7 +11,7 @@ def navbar() -> rx.Component:
                 "{ ValleDev }",  
                 weight="bold",  
                 size="6",  
-                color=TextColor.WHITE.value,  
+                color=TextColor.LIGHTBLUE.value,  
             ),
             # Enlaces de navegación
             rx.hstack(  
@@ -20,43 +20,51 @@ def navbar() -> rx.Component:
                     "Inicio", 
                     href="#header",
                     color=TextColor.WHITE.value, 
-                    margin_x=Size.DEFAULT.value  
+                    margin_x=Size.DEFAULT.value,
+                    _hover={
+                        "font_weight":"600"
+                    }
                 ),
                 # Enlace de Sobre mí
                 rx.link(  
                     "Sobre mí",  
                     href="#aboutme",  
                     color=TextColor.WHITE.value,  
-                    margin_x=Size.DEFAULT.value  
+                    margin_x=Size.DEFAULT.value,
+                    _hover={
+                        "font_weight":"600"
+                    }
                 ),
                 # Enlace de Experiencia
                 rx.link(  
                     "Experiencia",  
                     href="#experience",  
                     color=TextColor.WHITE.value,  
-                    margin_x=Size.DEFAULT.value  
+                    margin_x=Size.DEFAULT.value,
+                    _hover={
+                        "font_weight":"600"
+                    }
                 ),
                 # Enlace de Skills
-                rx.link(  
-                    "Skills",  
-                    href="#skills",  
-                    color=TextColor.WHITE.value,  
-                    margin_x=Size.DEFAULT.value  
-                ),
-                # Enlace de Proyectos
                 rx.link(  
                     "Proyectos",  
                     href="#projects",  
                     color=TextColor.WHITE.value,  
-                    margin_x=Size.DEFAULT.value  
+                    margin_x=Size.DEFAULT.value,
+                    _hover={
+                        "font_weight":"600"
+                    }  
                 ),
-                # Enlace de Contacto
-                #rx.link(  
-                #    "Contácto",  
-                #   href="#contact",  
-                #  color=TextColor.WHITE.value,  
-                # margin_x=Size.DEFAULT.value  
-                #),
+                # Enlace de Proyectos
+                rx.link(  
+                    "Skills",  
+                    href="#skills",  
+                    color=TextColor.WHITE.value,  
+                    margin_x=Size.DEFAULT.value,
+                    _hover={
+                        "font_weight":"600"
+                    }  
+                ),
                 margin_left=["5em", "5em", "5em", "10em", "15em", "15em"],
                 display=["none", "none", "none", "flex", "flex", "flex"]
             ),

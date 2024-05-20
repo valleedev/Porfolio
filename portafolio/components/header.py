@@ -20,7 +20,7 @@ def header() -> rx.Component:
                         width=["15em", "15em", "25em", "25em", "25em",],  
                         heigth=["15em", "15em", "25em", "25em", "25em",],
                         border_radius="250px", 
-                        border=f"2px solid {styles.Color.GREY.value}",  
+                        border=f"2px solid {styles.Color.WHITE.value}",  
                         margin_right=["0", "0", Size.VERYBIG.value, Size.VERYBIG.value, Size.VERYBIG.value],  
                         box_shadow=styles.Color.BOXSHADOW 
                     ),
@@ -36,7 +36,7 @@ def header() -> rx.Component:
                             ),
                             rx.text.strong( 
                                 "Desarrollador de software",
-                                color=TextColor.DARK, 
+                                color=TextColor.LIGHTBLUE, 
                             ),
                             
                             # Boton de descarga de CV 
@@ -53,9 +53,9 @@ def header() -> rx.Component:
                                         width="15em",
                                         heigth="12em",
                                         _hover={  
-                                            "bg": styles.Color.WHITE,  
-                                            "color": styles.Color.LIGHTBLUE, 
-                                            "font_weigth":"bold", 
+                                            "bg": styles.Color.WHITE.value,  
+                                            "color": styles.Color.LIGHTBLUE.value, 
+                                            "font_weight":"bold", 
                                         }
                                     ),
                                     href="CV_sebastian_Valle.pdf",
@@ -74,10 +74,10 @@ def header() -> rx.Component:
                                     href=constanst.INSTAGRAM_URL, 
                                     is_external=True, 
                                     border_radius=styles.Size.SMALL.value, 
-                                    transition=".3s",  
-                                    _hover={ 
-                                        "bg":styles.Color.GREY,  
-                                    }
+                                    transition=".3s", 
+                                    _hover={  
+                                        "bg":styles.Color.LIGHTBLUE  
+                                    }  
                                 ),
                                 rx.link(  
                                     rx.image(  
@@ -90,7 +90,7 @@ def header() -> rx.Component:
                                     border_radius=styles.Size.SMALL.value,  
                                     transition=".3s",  
                                     _hover={  
-                                        "bg":styles.Color.GREY  
+                                        "bg":styles.Color.LIGHTBLUE  
                                     }     
                                 ),
                                 rx.link(  
@@ -104,7 +104,7 @@ def header() -> rx.Component:
                                     border_radius=styles.Size.SMALL.value,  
                                     transition=".3s",  
                                     _hover={  
-                                        "bg":styles.Color.GREY  
+                                        "bg":styles.Color.LIGHTBLUE  
                                     }
                                 )
                             ),

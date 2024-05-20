@@ -28,21 +28,23 @@ def projects() -> rx.Component:
                     src="jyasistem.png",  
                     alt="Imagen del sistema de información de JYA SAS", 
                     width="17em",
-                    heigth="100%"
+                    heigth="100%",
+                    border_radius="15px"
                 ),
                 rx.box(
                     rx.text.strong("JYASistem"), 
                     rx.text("Sitio de escritorio donde aprendí el manejo de CRUD con PHP ademas del trabajo en equipo ya que eramos 4 personas trabajando en el."), 
                     padding=styles.Size.DEFAULT
                 ),
-                rx.button(rx.text.strong("PHP"), bg=styles.Color.BLUE), 
-                bg=styles.Color.LIGHTBLUE.value,  
+                rx.button(rx.text.strong("PHP"), bg=styles.Color.LIGHTBLUE), 
+                bg=styles.Color.GREY.value,  
                 color=styles.TextColor.WHITE,  
                 text_align="center", 
                 width="17em",  
                 height="22em",  
                 margin_right=["0", "0", "0", styles.Size.VERYBIG, styles.Size.VERYBIG], 
                 border_radius="1em",
+                border="1px solid #fff",
                 transition="all .5s",
                 _hover={
                         "transform":"scale(1.1)"
@@ -55,20 +57,22 @@ def projects() -> rx.Component:
                     rx.image( 
                         src="angeles4x4.jpeg", 
                         alt="Imagen de la web de angeles 4x4",  
-                        width="17em",  
+                        width="17em", 
+                        border_radius="15px" 
                     ),
                     rx.box(
                         rx.text.strong("Angeles4x4"),  
                         rx.text("Página Web donde aprendi el manejo de usuarios y creación de publicaciones, además fue un reto porque fué la primera vez que realice responsive design."),
                         padding=styles.Size.DEFAULT
                     ),
-                    rx.button(rx.text.strong("PHP"), bg=styles.Color.BLUE),  
-                    bg=styles.Color.LIGHTBLUE.value, 
+                    rx.button(rx.text.strong("PHP"), bg=styles.Color.LIGHTBLUE),  
+                    bg=styles.Color.GREY.value, 
                     color=styles.TextColor.WHITE, 
                     text_align="center",
                     width="17em",  
                     height="22em", 
                     border_radius="1em",
+                    border="1px solid #fff",
                     transition="all .5s",
                     _hover={
                         "transform":"scale(1.1)"

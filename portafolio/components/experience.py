@@ -22,7 +22,7 @@ def experience() -> rx.Component:
                     
                     # Primer trabajo como desarrollador freelance
                     rx.box(  
-                        rx.text.strong("Desarrollador Autónomo", color=styles.Color.DARK.value),  
+                        rx.text.strong("Desarrollador Autónomo", color=styles.Color.LIGHTBLUE.value),  
                         rx.text("2022 - actualidad", weight="bold"), 
                         rx.text( 
                             "Teniendo la oportunidad de colaborar con clientes y proyectos personales lo cual ha enriquecido mi experiencia y ampliando mi conjunto de habilidades. ",
@@ -36,7 +36,7 @@ def experience() -> rx.Component:
                     
                     # Segundo trabajo como desarrollador backend
                     rx.box(  
-                        rx.text.strong("Semillero de Investigación", color=styles.Color.DARK.value),  
+                        rx.text.strong("Semillero de Investigación", color=styles.Color.LIGHTBLUE.value),  
                         rx.text("2024 - actualidad", weight="bold"), 
                         rx.text(  
                             "Actualmente soy aprendiz investigador en el semillero de software del Centro de diseño e innovación tecnológica industrial donde me estoy desempeñando como desarrollador backend .",  
@@ -49,7 +49,7 @@ def experience() -> rx.Component:
                     
                     # Tercer trabajo como desarrollador FullStack
                     rx.box(  
-                        rx.text.strong("Raptor Tecnologies", color=styles.Color.DARK.value), 
+                        rx.text.strong("Raptor Tecnologies", color=styles.Color.LIGHTBLUE.value), 
                         rx.text("2022 - 2023", weight="bold"),
                         rx.text( 
                             "Esta empresa fue creada como requisito de grado en el cuál desarrollamos un software de manejo de información de una constructora donde me desempeñe como Full Stack.", 
