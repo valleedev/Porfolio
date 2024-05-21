@@ -69,7 +69,7 @@ def navbar() -> rx.Component:
                 display=["none", "none", "none", "flex", "flex", "flex"]
             ),
         ),
-        bg=Color.DARK.value, 
+        backdrop_filter="blur(40px)",
         position="fixed",
         padding_x=Size.BIG.value, 
         padding_y=Size.DEFAULT.value,  
