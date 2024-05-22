@@ -58,7 +58,7 @@ def header() -> rx.Component:
                                             "font_weight":"bold", 
                                         }
                                     ),
-                                    href="CV_sebastian_Valle.pdf",
+                                    href="CV_Sebastian_Valle.pdf",
                                     is_external=True  
                                 ),
                             ),
