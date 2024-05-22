@@ -1,4 +1,5 @@
 import reflex as rx 
+import json
 import portafolio.styles.styles as styles 
 from portafolio.views.navbar import navbar  
 from portafolio.components.header import header  
@@ -32,6 +33,29 @@ app = rx.App(
 
 title = "Sebastian Valle / Portfolio"
 description = "Hola mi nombre es Sebastian Valle desarrollador de software, tambien hago parte de la iglesia Adventista del Séptimo Dia."
+canonical_url = "https://sebasvalle.vercel.app/" 
+
+
+schema_markup = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sebastian Valle",
+    "jobTitle": "Desarrollador de Software",
+    "url": canonical_url,
+    "sameAs": [
+        "https://www.linkedin.com/in/sebasvalle/",
+        "https://github.com/ValleDeve"
+    ],
+    "description": description,
+    "alumniOf": {
+        "@type": "Organization",
+        "name": "Centro de Diseño e Innovación Tecnológica Industrial"
+    },
+    "memberOf": {
+        "@type": "Organization",
+        "name": "Iglesia Adventista del Séptimo Dia"
+    }
+}
 
 app.add_page(
     index,
@@ -43,5 +67,7 @@ app.add_page(
         {"name": "og:description", "content": description},
         {"name": "twitter:card", "content": "summary_large_image"},
         {"name": "twitter:site", "content": "@valledev"},
+        {"rel": "canonical", "href": canonical_url}, 
+        {"type": "application/ld+json", "content": json.dumps(schema_markup)} 
     ]
 )
