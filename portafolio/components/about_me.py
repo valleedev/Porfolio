@@ -84,7 +84,29 @@ def about_me() -> rx.Component:
                     # Texto de presentación
                     rx.box(
                         rx.text(  
-                            "👨‍💻 Mi nombre completo es Johan Sebastian Valle Barbarán, soy una persona muy elocuente, con actitud y resiliente tambien soy Adventista del séptimo día lo cual me hace una persona espiritual y centrada en mis desiciones.",
+                            "👨‍💻 Mi nombre es Johan Sebastian Valle Barbarán. Soy una persona elocuente, con actitud y resiliente. Como Adventista del séptimo día, mi espiritualidad me ayuda a estar centrado en mis decisiones. Me gradué como el mejor programador de mi clase en el técnico en programación de software, destacando por mi habilidad en la resolución de problemas, mi capacidad para aprender rápidamente, y mi atención al detalle en mis acciones.",
+                            rx.link(  
+                                    rx.button(  
+                                        "Reconocimiento", 
+                                        bg=TextColor.LIGHTBLUE.value,  
+                                        text_Color=TextColor.WHITE,  
+                                        border_radius="15px",  
+                                        cursor="pointer",  
+                                        box_shadow=styles.Color.BOXSHADOW, 
+                                        transition=".3s", 
+                                        width="12em",
+                                        heigth="12em",
+                                        margin_top=styles.Size.SMALL.value,
+                                        margin_bottom=styles.Size.DEFAULT.value,
+                                        _hover={  
+                                            "bg": styles.Color.WHITE.value,  
+                                            "color": styles.Color.LIGHTBLUE.value, 
+                                            "font_weight":"bold", 
+                                        }
+                                    ),
+                                    href="reconocimiento.jpeg",
+                                    is_external=True  
+                                ),
                             width=["18em", "18em", "29em", "29em", "29em"],
                             color=styles.TextColor.WHITE,
                             margin_bottom=styles.Size.DEFAULT.value
