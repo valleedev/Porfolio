@@ -45,30 +45,34 @@ def about_me() -> rx.Component:
                                 ),
                                 
                                 # Tarjeta de estudios
-                                rx.box(  
-                                    rx.image(  
-                                        src="book-regular-36.png", 
-                                        alt="Icono de libro regular",  
-                                        width=styles.Size.BIG  
+                                rx.link(
+                                    rx.box(  
+                                        rx.image(  
+                                            src="book-regular-36.png", 
+                                            alt="Icono de libro regular",  
+                                            width=styles.Size.BIG  
+                                        ),
+                                        rx.text("Estudios", color=styles.TextColor.LIGHTBLUE, font_weight="bold"), 
+                                        rx.text("Técnico en programación de software.", font_size=styles.Size.DEFAULT.value, color=styles.TextColor.WHITE), 
+                                        rx.text(  
+                                            "Tecnólogo en análisis y desarrollo de software(en proceso).",  
+                                            font_size=styles.Size.DEFAULT.value,  
+                                            color=styles.TextColor.WHITE 
+                                        ),
+                                        width="17em",  
+                                        text_align="start",
+                                        bg=styles.Color.GREY,  
+                                        box_shadow=styles.Color.BOXSHADOW,  
+                                        transition=".3s",  
+                                        padding="1em",
+                                        border_radius="1em",
+                                        border="1px solid #fff",
+                                        _hover={  
+                                            "bg":styles.Color.DARKBLUE,
+                                        }
                                     ),
-                                    rx.text("Estudios", color=styles.TextColor.LIGHTBLUE, font_weight="bold"), 
-                                    rx.text("Técnico en programación de software.", font_size=styles.Size.DEFAULT.value, color=styles.TextColor.WHITE), 
-                                    rx.text(  
-                                        "Tecnólogo en análisis y desarrollo de software(en proceso).",  
-                                        font_size=styles.Size.DEFAULT.value,  
-                                        color=styles.TextColor.WHITE 
-                                    ),
-                                    width="17em",  
-                                    text_align="start",
-                                    bg=styles.Color.GREY,  
-                                    box_shadow=styles.Color.BOXSHADOW,  
-                                    transition=".3s",  
-                                    padding="1em",
-                                    border_radius="1em",
-                                    border="1px solid #fff",
-                                    _hover={  
-                                        "bg":styles.Color.DARKBLUE,
-                                    }
+                                    href="Certificado_tecnico.pdf", 
+                                    is_external=True
                                 ),
                                 spacing="4", 
                                 padding=styles.Size.DEFAULT.value,
