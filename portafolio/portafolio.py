@@ -21,9 +21,9 @@ def index() -> rx.Component:
             flex_direction="column", 
             style={"overflow": "auto"}, 
             bg=styles.Color.BLUE.value,  
-            scroll_behavior="smooth" 
         ),
         footer(),  
+        scroll_behavior="smooth" 
     )
 
 app = rx.App(

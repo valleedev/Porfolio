@@ -23,34 +23,37 @@ def projects() -> rx.Component:
         rx.hstack(
             
             # Tarjeta para el proyecto JYASistem
-            rx.box(  
-                rx.image( 
-                    src="jyasistem.png",  
-                    alt="Imagen del sistema de información de JYA SAS", 
-                    width="17em",
-                    heigth="100%",
-                    border_radius="15px"
-                ),
-                rx.box(
-                    rx.text.strong("JYASistem"), 
-                    rx.text("Sitio de escritorio donde aprendí el manejo de CRUD con PHP ademas del trabajo en equipo ya que eramos 4 personas trabajando en el."), 
-                    padding=styles.Size.DEFAULT
-                ),
-                rx.button(rx.text.strong("PHP"), bg=styles.Color.LIGHTBLUE), 
-                bg=styles.Color.GREY.value,  
-                color=styles.TextColor.WHITE,  
-                text_align="center", 
-                width="17em",  
-                height="22em",  
-                margin_right=["0", "0", "0", styles.Size.VERYBIG, styles.Size.VERYBIG], 
-                border_radius="1em",
-                border="1px solid #fff",
-                transition="all .5s",
-                _hover={
-                        "transform":"scale(1.1)"
-                }
+            rx.link(
+                rx.box(  
+                    rx.image( 
+                        src="jyasistem.png",  
+                        alt="Imagen del sistema de información de JYA SAS", 
+                        width="17em",
+                        heigth="100%",
+                        border_radius="15px"
+                    ),
+                    rx.box(
+                        rx.text.strong("JYASistem"), 
+                        rx.text("Sitio de escritorio donde aprendí el manejo de CRUD con PHP ademas del trabajo en equipo ya que eramos 4 personas trabajando en el."), 
+                        padding=styles.Size.DEFAULT
+                    ),
+                    rx.button(rx.text.strong("PHP"), bg=styles.Color.LIGHTBLUE), 
+                    bg=styles.Color.GREY.value,  
+                    color=styles.TextColor.WHITE,  
+                    text_align="center", 
+                    width="17em",  
+                    height="22em",  
+                    margin_right=["0", "0", "0", styles.Size.VERYBIG, styles.Size.VERYBIG], 
+                    border_radius="1em",
+                    border="1px solid #fff",
+                    transition="all .5s",
+                    _hover={
+                            "transform":"scale(1.1)"
+                    }
             ),
-            
+                href="https://github.com/valleedev/jyasistem", 
+                is_external=True  
+            ),
             # Enlace para el proyecto Angeles4x4
             rx.link(  
                 rx.box(  # Tarjeta para el proyecto Angeles4x4

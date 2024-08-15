@@ -84,7 +84,7 @@ def about_me() -> rx.Component:
                     # Texto de presentación
                     rx.box(
                         rx.text(  
-                            "👨‍💻 Mi nombre es Johan Sebastian Valle Barbarán. Soy una persona elocuente, con actitud y resiliente. Como Adventista del séptimo día, mi espiritualidad me ayuda a estar centrado en mis decisiones. Me gradué como el mejor programador de mi clase en el técnico en programación de software, destacando por mi habilidad en la resolución de problemas, mi capacidad para aprender rápidamente, y mi atención al detalle en mis acciones.",
+                            "👨‍💻 Mi nombre es Johan Sebastian Valle Barbarán. Desde que comencé en el mundo de la programación, he experimentado una amplia gama de emociones, desde la frustración hasta la satisfacción de resolver problemas complejos. A lo largo de mi trayectoria, he trabajado en varios proyectos en equipo, donde aprendí la importancia de la colaboración y la toma de decisiones conjuntas. Me considero una persona en constante aprendizaje, motivado por la disciplina y el deseo de superación.",
                             rx.link(  
                                     rx.button(  
                                         "Reconocimiento", 
@@ -112,7 +112,7 @@ def about_me() -> rx.Component:
                             margin_bottom=styles.Size.DEFAULT.value
                         ),
                         rx.text( 
-                            "🔭 Actualmente hago parte del semillero de investigación Teinnova en el área de Informática y desarrollo de software del SENA en el Centro de Diseño e Innovación Tecnológica Industrial, en el cuál he trabajado en equipo lo cuál me ha enseñado a trabajar en equipo para llegar a soluciones efectivas.",
+                            "🔭 Actualmente, estoy enfocado en fortalecer mis bases técnicas y desarrollar habilidades blandas a través de cursos especializados y proyectos personales. Disfruto compartiendo mis conocimientos con otros, lo que refuerza mi propio entendimiento y contribuye al crecimiento de la comunidad.",
                             width=["18em", "18em", "29em", "29em", "29em"],  
                             color=styles.TextColor.WHITE  
                         ),
