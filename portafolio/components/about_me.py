@@ -71,7 +71,7 @@ def about_me() -> rx.Component:
                                             "bg":styles.Color.DARKBLUE,
                                         }
                                     ),
-                                    href="Certificado_tecnico.pdf", 
+                                    href="certificado_tecnico.pdf", 
                                     is_external=True
                                 ),
                                 spacing="4", 
