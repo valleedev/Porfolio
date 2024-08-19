@@ -1,4 +1,4 @@
 #Urls
-GITHUB_URL="https://github.com/ValleDeve"
-INSTAGRAM_URL="https://www.instagram.com/sebas_valle103?igsh=MTZja2x5b2pjazhyYw=="
+GITHUB_URL="https://github.com/valleedev"
+INSTAGRAM_URL="https://www.instagram.com/_sebas_valle_/"
 LINKEDIN="https://www.linkedin.com/in/sebasvalle/"
