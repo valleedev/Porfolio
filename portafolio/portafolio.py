@@ -20,7 +20,7 @@ def index() -> rx.Component:
             skills(),  
             flex_direction="column", 
             style={"overflow": "auto"}, 
-            bg=styles.Color.BLUE.value,  
+            bg=styles.Color.BGCOLOR.value,  
         ),
         footer(),  
         scroll_behavior="smooth" 
